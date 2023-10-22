@@ -1,0 +1,160 @@
+@media screen and (max-width:575px) {
+  .about_img img{
+    width: 100% ;
+  }
+  .mission_img img{
+    width: 100% ;
+  }
+  
+  .main_logo a img{
+    width: 100%;
+  }
+  .banner_img img{
+    width: 100%;
+  }
+
+  .of_video img{
+    width: 100%;
+  }
+  .section_head h1{
+    font-size: 32px;
+  }
+  .about_overlay ,
+  .mission_overlay{
+    display: none;  
+  }
+  .banner_content p{
+    font-size: 16px !important;
+  }
+  .banner_content h2{
+    font-size: 40px !important;
+  }
+  .banner_icon{
+    display: none;
+  }
+}
+@media screen and (min-width:576px) and (max-width:767px) {
+  .about_img img{
+    width: 500px;
+  }
+  .mission_img img{
+    width: 500px;
+  }
+  .section_head h1{
+    font-size: 34px;
+  }
+  .about_overlay,
+  .mission_overlay {
+    display: none;
+  }
+  .banner_content p{
+    font-size: 16px !important;
+  }
+  .banner_content h2{
+    font-size: 40px !important;
+  }
+  .banner_icon{
+    display: none;
+  }
+}
+@media screen and (min-width:768px) and (max-width:991px) {
+.btn a:hover{
+  display: none;
+}
+.navbar-toggler {
+  outline: none;
+  filter: invert(1);
+ }
+ .navbar-toggler:focus{
+   outline: 1px solid var(--whtxt) !important;
+ }
+ .navbar-collapse{
+   background-color: var(--bgcolor);
+ padding: 50px;
+ height: 100%;
+ }   
+ .banner_content p{
+  font-size: 16px !important;
+}
+  .banner_content h2{
+    font-size: 48px !important;
+  }
+  }
+@media screen and (min-width:991px) and  (max-width:1199px) {
+    ul li a:hover{
+        border-bottom: 2px solid var(--whtxt) !important;
+      }
+      .banner_img img{
+        height: 100vh;
+      }
+      .about_img img{
+        width: 400px;
+      }
+      .mission_img img{
+        width: 400px;
+      }
+      .nav-item .nav-link a{
+        display: none;
+      }
+      .banner_content h2{
+        font-size: 64px !important;
+      }
+    
+}
+@media screen and (min-width:768px) and (max-width:991px) {
+  .about_img img{
+    width: 616px;
+  }
+  .mission_img img{
+    width: 616px;
+  }
+  .about_overlay{
+    left: -2rem;
+  }
+  .mission_overlay{
+    right: -3.3rem;
+  }
+  }
+  @media screen and (max-width:1200px) {
+    .navbar-toggler {
+      outline: none;
+      filter: invert(1);
+     }
+     .of_video img{
+      width: 100%;
+    }
+   
+  
+  }
+  @media (max-width: 767px) {
+    html {
+      font-size: 14px;
+    }
+  }
+  @media screen and (min-width:1200px) {
+    .about_img img{
+      width: 490px;
+/*      height: 50px !important;*/
+    }
+    .mission_img img{
+      width: 490px;
+    }
+    .navbar-brand img{
+      width: 100% !important;
+      height: 50px !important;
+    }
+    
+    .of_video img{
+      width: 100%;
+    }
+    .banner_content h2{
+      font-size: 64px !important;
+    }
+    .banner_content p{
+      font-size: 20px !important;
+    }
+    .nav-item a i{
+      display: none;
+    }
+  }
+    
