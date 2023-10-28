@@ -5,13 +5,29 @@
   .mission_img img{
     width: 100% ;
   }
-  
+  .play-video{
+    margin: auto !important;
+  }
   .main_logo a img{
     width: 100%;
   }
   .banner_img img{
     width: 100%;
   }
+  .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next{
+    display: none;
+  }
+  .ma-btn-secondary, .ma-btn-primary{
+    display: none;
+  }
+  .mission_img img{
+    margin: auto !important;
+  }
+  .play-btn.play-btn{
+    margin-top: 100px !important;
+    margin: auto;
+  } 
+  .owl-carousel .owl-nav button.owl-next{}
 
   .of_video img{
     width: 100%;
@@ -98,8 +114,11 @@
       }
       .banner_content h2{
         font-size: 64px !important;
+      
       }
-    
+      .button-group button{
+        padding: 8px  10px;
+      }
 }
 @media screen and (min-width:768px) and (max-width:991px) {
   .about_img img{

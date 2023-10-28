@@ -501,7 +501,7 @@
     margin-bottom: 48px;
   }
   .button-group button{
-    padding: 8px 32px;
+    padding: 8px 20px;
     background-color: var(--bodycolor);
     border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -545,6 +545,9 @@
   top: 50%;
   left: 48%;
  
+}
+.of_video .play-wraper {
+  text-align: center;
 }
 .play-btn-row-dir, .play-btn-col-dir {
   display: inline-block;
