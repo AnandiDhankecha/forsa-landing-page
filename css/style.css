@@ -187,6 +187,10 @@
   /* button theme */
   button {
     margin: 20px;
+   
+  }
+  .ma-btn-secondary, .ma-btn-primary{
+    cursor: pointer;
   }
   .custom-btn {
     width: auto;
@@ -493,7 +497,7 @@
     font-size: 18px;
     margin-top: 10px;
   }
-   */
+
     /* =============================================================
                             start portfolio
   =================================================================*/
@@ -501,7 +505,7 @@
     margin-bottom: 48px;
   }
   .button-group button{
-    padding: 8px 20px;
+    padding: 8px 32px;
     background-color: var(--bodycolor);
     border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -1591,9 +1595,6 @@ margin-bottom: 0px;
     transform: scale(1);
   }
 }
-/* End loading screen rules
-/*ُ 01- End global, helper classes , components Rules */
-/*02- Start .page-header Rules    */
 .page-header {
   position: fixed;
   top: 0;

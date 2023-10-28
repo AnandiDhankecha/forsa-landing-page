@@ -17,7 +17,7 @@
   .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next{
     display: none;
   }
-  .ma-btn-secondary, .ma-btn-primary{
+  .banner_content .ma-btn-secondary, .banner_content .ma-btn-primary{
     display: none;
   }
   .mission_img img{
